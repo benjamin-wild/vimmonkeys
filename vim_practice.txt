@@ -1,0 +1,124 @@
+=====================VIM PRACTICE===========================
+
+Welcome to my Vim Practice tool where users can get more 
+comfortable using the keybindings of vim to become true 
+vimonkeys. The goal is to complete these exercises as quickly
+and correctly as possible. To ensure you have less setup 
+work each time, remember to copy and paste the editing line
+before moving on(it's more practice that way too). Without 
+further ado, enter the excersises and complete them to the 
+best of your ability. Proceed to (--->) to start the problem 
+
+===========================================================
+
+Problem 1: Basic Navigation: 
+
+
+	j - move down 
+	k - move up
+	h - move left
+	l - move right
+	
+
+	e - move forward 1 word
+	b - move backward 1 word
+
+---> Navigate to the beginning and end of this sentence using e & b 
+---> Reach the word sentence above starting from "Reach"
+---> Move to "Navigate" starting from here (here)
+
+==========================================================
+
+Problem 2: Intermediate Navigation
+
+	H - move to the top of the screen
+	L - move to the bottom of the screen
+	M - move to the middle of the screen
+
+	% - move cursor to matching character -> (), {}, []
+	0 - jump to the start of a line
+	$ - jump to the end of a line
+
+	gg - go to first line of document
+	G - go to last line of document
+	[number]gg or [number]G - go to line [number]
+
+---> Move to the top of the screen and then come back to line 47
+---> Move to the bottom of the screen then come back to line 48
+---> Move to the middle of the screen then come back to line 49
+---> Move to the end of this line, then back to the start
+---> (Move to all { the matches of [ this ] line } before moving on) 
+---> Go to the first line of the document and return to line 52
+---> Go to the last line of the document and return to line 56
+
+==========================================================
+
+Problem 3: Advanced Navigation
+
+	ctrl + e - move screen down one line (without moving cursor)
+	ctrl + y - move screen up one line (without moving cursor)
+	ctrl + b - move screen up one page
+	ctrl + f - move screen down one page
+	ctrl + d - move screen down half-page
+	ctrl + u - move screen up half-page 
+	
+---> Navigate to top and bottom of this document using these
+commands, stopping at each problem 
+
+=========================================================
+
+Problem 4: Insert Mode	
+
+	i - insert mode BEFORE cursor
+	I - insert mode at beginning of line
+	a - insert mode AFTER cursor
+	A - insert more at the end of the line
+	o - append new line below current line
+	O - append new line above the current line
+	ea - append at the end of a word
+	
+	ctrl + h - delete the character before the cursor
+	ctrl + w - delete the word before the cursor
+	ctrl + t - add one indent
+	ctrl + d - remove one indent 
+
+---> Complete this phrase: Peter piper picked a ____ of pickled _______
+---> : Complete the phrase before the colon(Corn should be ____ by the 4th of July)
+---> Type your favorite color after this: 
+---> Add a line below with any text
+---> Add a line above in response to the first text
+---> Finish the word: Wolver
+---> Deleete the unnneeeded charracters fromm this liine
+---> Delete the the extra words from from this this line
+---> Indent this line by 1, then remove the indent
+
+==============================================================
+
+Problem 5: Editing
+
+	r - replace a single character
+	R - replace more than one character, until esc is pressed
+	cc - change (replace) entire line
+	C - change until end of line
+	ciw - change (replace) this word
+	cw OR ce - change (replace to the end of a word)
+	cl - change (replace) a single letter
+	u - undo
+	U - restore last changed line
+	ctrl + r - redo
+
+---> Replice the wrang characturs in th1s lin3
+---> Change the wrong letters in the following line: 
+	The cry br03n f0e jumped over the m00n. 
+---> Remove this line and type it again
+---> Change the end of the line to say "Let's go Blue": Let's go Green
+---> Replace the out of place word
+	Ice cream, wafers, chocolate, tomato
+---> Replace the end of word that looks filly 
+	
+
+
+
+
+
+ 
